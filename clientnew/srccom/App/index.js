@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { DragDropContext } from 'react-beautiful-dnd'
-import data from './data';
-import Column from './components/Column';
+import data from '../Data';
+import Column from '../Column';
 import styled from 'styled-components';
 
 const Title = styled.div`
